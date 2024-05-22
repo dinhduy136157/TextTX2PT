@@ -1,0 +1,30 @@
+﻿
+.header {
+    background-color: #337ab7;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.menu {
+    text-align: right;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+    .menu a {
+        text-decoration: none;
+        color: black;
+        margin: 0 5px;
+    }
+
+.contet {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}

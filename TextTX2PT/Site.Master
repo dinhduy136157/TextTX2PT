@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="TextTX2PT.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link rel="stylesheet" href="Style.css">
+    <title>
+        <asp:ContentPlaceHolder ID="tieude" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+    <div class="header">
+        <h1>NCT - Kiểm tra 2</h1>
+    </div>
+    <div class="menu">
+        <p><a href="List.aspx">Xem danh sách</a> | <a href="Add.aspx">Thêm dữ liệu</a></p>
+    </div>
+    <div class="content">
+        <asp:ContentPlaceHolder ID="noidung" runat="server" />
+    </div>
+    <div class="footer">
+        <h3>Fit Haui - 5/2024</h3>
+    </div>
+</div>
+    </form>
+</body>
+</html>
